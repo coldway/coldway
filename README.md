@@ -14,3 +14,5 @@
 
 ### 不错的学习文章
 ### 其他学习资源
+- [Markdown 编辑器推荐](https://github.com/wizardforcel/markdown-simple-world/blob/master/1.md)  
+- [Markdown 基本语法](https://github.com/younghz/Markdown)  
