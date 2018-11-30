@@ -7,21 +7,28 @@
 
 
 ### 优秀的go扩展包  
-##### 1.networking     
-- [valyala/fasthttp](https://github.com/valyala/fasthttp)  - 具有goroutine pool的http扩展
 
-##### 2.goroutine pool
+- [valyala/fasthttp](https://github.com/valyala/fasthttp)  - 具有goroutine pool的http扩展
 - [panjf2000/ants](https://github.com/panjf2000/ants/)  - 实现一个控制goroutine数量的goroutine pool  
+- [posener/h2conn](https://github.com/posener/h2conn) - HTTP2 client-server full-duplex connection
 
 ### 优秀的go学习社区
 - [Go 夜读](https://github.com/developer-learning/night-reading-go/)  - Go source reading and offline technical discussion every Thursday night.  
+- [Awesome Go](#https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries and software
 
 ### 不错的学习文章
-- [实现一个不会由于tcp过期时间导致连接断开的http2client](#httpclient)
+- [实现一个不会由于tcp过期时间导致连接断开的http2client](#httpclient) - 原创
+- [Go 语言机制之栈和指针、逃逸分析、内存剖析和数据和语法的设计哲学](#https://studygolang.com/articles/12443)
+- [InterfaceSlice](#https://github.com/golang/go/wiki/InterfaceSlice) - Why can't I assign any slice to an []interface{}, when I can assign any type to an interface{}
+- [Go调度器: M,P和G](#http://developer.51cto.com/art/201705/538917.htm)
+- [Visualizing Concurrency in Go](#http://divan.github.io/posts/go_concurrency_visualize/)
+
+### 学习工具
+- [go process play website](#https://play.golang.org/)
 
 ### 其他学习资源
 - [Markdown 编辑器推荐](https://github.com/wizardforcel/markdown-simple-world/blob/master/1.md)  
-- [Markdown 基本语法](https://github.com/younghz/Markdown)  
+- [Markdown 语法说明](https://www.appinn.com/markdown/)  
 
 
 ### 文章列表
