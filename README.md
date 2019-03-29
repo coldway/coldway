@@ -22,6 +22,7 @@
 - [InterfaceSlice](#https://github.com/golang/go/wiki/InterfaceSlice) - Why can't I assign any slice to an []interface{}, when I can assign any type to an interface{}
 - [Go调度器: M,P和G](#http://developer.51cto.com/art/201705/538917.htm)
 - [Visualizing Concurrency in Go](#http://divan.github.io/posts/go_concurrency_visualize/)
+- [git push -f 之坑](#gitpush-f) - 原创
 
 ### 学习工具
 - [go process play website](#https://play.golang.org/)
@@ -73,3 +74,12 @@
  由于此问题是在开发苹果apns遇到的问题，所以上面这个包是一个apns推送的功能包    
  里面实现了一个自建的维护http2 ClientConn连接的连接池，同时并采用ping的方式进行保活。不赞同的是代码里用h2c来表示http2 ClientConn，但是h2c另有含义。
 
+### <span id="gitpush-f">git push -f 之坑</span> 
+
+通常我们会用git push -f 进行远程版本库回滚。    
+但是，当我们多人协同在同代码库工作时就会遇到问题。   
+当一个人进行远程代码回滚之后  
+另一个人的本地版本库采用git pull or git fetch&& merge 并不能感知远程版本库的回滚操作。   
+同时他的本地分支还会拥有回滚的内容与log   
+这时，在merge本地代码之前需要保持与远程版本库相同，务必要先运行 git reset --hard origin/master（这里默认为是master分支）    
+如果不运行以上指令，会把别人回滚的提交再次的提交到远程分支
