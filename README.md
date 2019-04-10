@@ -14,18 +14,18 @@
 
 ### 优秀的go学习社区
 - [Go 夜读](https://github.com/developer-learning/night-reading-go/)  - Go source reading and offline technical discussion every Thursday night.  
-- [Awesome Go](#https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries and software
+- [Awesome Go](https://awesome-go.com/) - A curated list of awesome Go frameworks, libraries and software
 
 ### 不错的学习文章
 - [实现一个不会由于tcp过期时间导致连接断开的http2client](#httpclient) - 原创
-- [Go 语言机制之栈和指针、逃逸分析、内存剖析和数据和语法的设计哲学](#https://studygolang.com/articles/12443)
-- [InterfaceSlice](#https://github.com/golang/go/wiki/InterfaceSlice) - Why can't I assign any slice to an []interface{}, when I can assign any type to an interface{}
-- [Go调度器: M,P和G](#http://developer.51cto.com/art/201705/538917.htm)
-- [Visualizing Concurrency in Go](#http://divan.github.io/posts/go_concurrency_visualize/)
+- [Go 语言机制之栈和指针、逃逸分析、内存剖析和数据和语法的设计哲学](https://studygolang.com/articles/12443)
+- [InterfaceSlice](https://github.com/golang/go/wiki/InterfaceSlice) - Why can't I assign any slice to an []interface{}, when I can assign any type to an interface{}
+- [Go调度器: M,P和G](http://developer.51cto.com/art/201705/538917.htm)
+- [Visualizing Concurrency in Go](http://divan.github.io/posts/go_concurrency_visualize/)
 - [git push -f 之坑](#gitpush-f) - 原创
 
 ### 学习工具
-- [go process play website](#https://play.golang.org/)
+- [go process play website](https://play.golang.org/)
 
 ### 其他学习资源
 - [Markdown 编辑器推荐](https://github.com/wizardforcel/markdown-simple-world/blob/master/1.md)  
